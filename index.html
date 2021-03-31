@@ -15,13 +15,15 @@
 
 <body>
 
-    <main class="container">
-        <header class="">
+    <main class="">
+        <header class="container">
             <nav class="navbar navbar-light navbar-expand-lg">
                 <a href="#" class="nav-brand">
                     <img src="img/logo3.png">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacao-principal" aria-controls="#navegacao-principal" aria-expanded="false" aria-label="Toggle Navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navegacao-principal" aria-controls="#navegacao-principal" aria-expanded="false"
+                    aria-label="Toggle Navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navegacao-principal">
@@ -33,100 +35,125 @@
                 </div>
             </nav>
         </header>
-        <figure class="figure d-block">
-            <img src="img/canada3.jpg" class="figure-img img-fluid mx-auto d-block" alt="Canadá">
-        </figure>
 
-        <div class="row mt-5">
-            <div class="col text-center">
-                <h2>CONHEÇA AS VANTAGENS DE VIAJAR COM A GENTE</h2>
-                <p>Aqui vem um texto de descrição das vantagens de viajar com a gente.</p>
-            </div>
-        </div>
+        <!-- <figure class="figure d-block">
+            <img src="img/canada2.jpg" class="figure-img img-fluid mx-auto d-block" alt="Canadá">
+        </figure> -->
 
-        <div class="row mt-5">
-            <div class="col-sm-1">
-                <i class="bi-trophy fs-3 bg-primary text-white rounded-circle"></i>
+        <div id="MeuCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/canada2.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/canada3.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/londres.jpg" class="d-block w-100">
+                </div>
             </div>
-            <div class="col-sm-3">
-                <h4>Agenda</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="col-sm-1">
-                <i class="bi-trophy fs-3 bg-primary text-white rounded-circle"></i>
-            </div>
-            <div class="col-sm-3">
-                <h4>Valores</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="col-sm-1">
-                <i class="bi-trophy fs-3 bg-primary text-white rounded-circle"></i>
-            </div>
-            <div class="col-sm-3">
-                <h4>Segurança</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#MeuCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#MeuCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
-        <div class="row">
-            <div class="col-sm-1">
-                <i class="bi-trophy fs-3 bg-primary text-white rounded-circle"></i>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col text-center">
+                    <h2>CONHEÇA AS VANTAGENS DE VIAJAR COM A GENTE</h2>
+                    <p>Aqui vem um texto de descrição das vantagens de viajar com a gente.</p>
+                </div>
             </div>
-            <div class="col-sm-3">
-                <h4>Conforto</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="col-sm-1">
-                <i class="bi-trophy fs-3 bg-primary text-white rounded-circle"></i>
-            </div>
-            <div class="col-sm-3">
-                <h4>Guia</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="col-sm-1">
-                <i class="bi-trophy fs-3 bg-primary text-white rounded-circle"></i>
-            </div>
-            <div class="col-sm-3">
-                <h4>Atendimento</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </div>
-        </div>
 
-        <div class="row mt-5">
-            <div class="col text-center">
-                <h3>CONHEÇA NOSSOS DESTINOS</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <div class="row mt-5">
+                <div class="col-sm-1">
+                    <i class="bi-trophy fs-3 bg-primary text-white rounded-circle"></i>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Agenda</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-sm-1">
+                    <i class="bi-trophy fs-3 bg-primary text-white rounded-circle"></i>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Valores</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-sm-1">
+                    <i class="bi-trophy fs-3 bg-primary text-white rounded-circle"></i>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Segurança</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
             </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col">
-                <img src="img/danang-vietnam.jpg" class="img-fluid img-thumbnail" alt="Danang Vietnam">
-            </div>
-            <div class="col">
-                <img src="img/suica.jpg" class="img-fluid img-thumbnail" alt="Suíça">
-            </div>
-            <div class="col">
-                <img src="img/grecia.jpg" class="img-fluid img-thumbnail" alt="Grécia">
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col">
-                <img src="img/holanda.jpg" class="img-fluid img-thumbnail" alt="Holanda">
-            </div>
-            <div class="col">
-                <img src="img/manhattan.jpg" class="img-fluid img-thumbnail" alt="Manhattan">
-            </div>
-            <div class="col">
-                <img src="img/rio-de-janeiro.jpg" class="img-fluid img-thumbnail" alt="Rio de Janeiro">
-            </div>
-        </div>
 
+            <div class="row">
+                <div class="col-sm-1">
+                    <i class="bi-trophy fs-3 bg-primary text-white rounded-circle"></i>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Conforto</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-sm-1">
+                    <i class="bi-trophy fs-3 bg-primary text-white rounded-circle"></i>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Guia</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-sm-1">
+                    <i class="bi-trophy fs-3 bg-primary text-white rounded-circle"></i>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Atendimento</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col text-center">
+                    <h3>CONHEÇA NOSSOS DESTINOS</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <img src="img/danang-vietnam.jpg" class="img-fluid img-thumbnail" alt="Danang Vietnam">
+                </div>
+                <div class="col">
+                    <img src="img/suica.jpg" class="img-fluid img-thumbnail" alt="Suíça">
+                </div>
+                <div class="col">
+                    <img src="img/grecia.jpg" class="img-fluid img-thumbnail" alt="Grécia">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <img src="img/holanda.jpg" class="img-fluid img-thumbnail" alt="Holanda">
+                </div>
+                <div class="col">
+                    <img src="img/manhattan.jpg" class="img-fluid img-thumbnail" alt="Manhattan">
+                </div>
+                <div class="col">
+                    <img src="img/rio-de-janeiro.jpg" class="img-fluid img-thumbnail" alt="Rio de Janeiro">
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer class="footer bg-light text-center mb-0 mt-5 pt-4 pb-3">
         <p class="text-muted">Site desenvolvido por Júlia Aparecida utilizando Bootstrap 5</p>
     </footer>
-  
+
 
 
     <script src="bootstrap-5/bootstrap.bundle.min.js"></script>
